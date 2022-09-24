@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+   font-family: Lato, serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.6;
+   color: #424551;
+}
+/* ========HEADER============ */
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.header__container {
+   background-color:aqua;
+}
+
+.header__logo {
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 35px;
+}
+/* ========/HEADER============ */
+/* ========LANDING============ */
+/* --------landing header----- */
+.landing-header,
+.nav__menu,
+.landing-meta,
+.landing-details,
+.landing-date,
+.date,
+.timing,
+.landing-share,
+.nav-social__link-link,
+.nav-social,
+.list__item
+
+{
+   display: flex;
+   align-items: center;
+}
+
+.landing-header {
+   margin-bottom: 80px;
+}
+
+.landing-header__logo {
+   max-width: 130px;
+   min-height: 22px;
+   margin-right: 60px;
+}
+.nav__link {
+   font-weight: 700;
+   text-transform: capitalize;
+   margin-right: 40px;
+}
+
+.nav__link:hover {
+   color: #ff3f3a;
+   transition: color 0.3s ease;
+}
+/* --------/landing header----- */
+/* --------meta--------------- */
+.landing-meta {
+   margin-bottom: 12px;
+}
+
+.landing-meta__img {
+   margin-right: 10px;
+}
+
+.landing-meta__text {
+   margin-right: 12px;
+}
+
+.landing-meta__divider {
+   margin-right: 12px;
+   color:#787A80;
+}
+
+.landing-meta__hr {
+   font-weight: 700;
+   color: #ff3f3a;
+}
+/* --------/meta--------------- */
+/* --------title--------------- */
+.landing__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   margin-bottom: 26px;
+   color: #000;
+ }
+ /* --------/title--------------- */
+ /* --------details-------------- */
+.landing-details {
+   margin-bottom: 40px;
+}
+
+ .date__picture,
+ .time__picture {
+   margin-right: 8px;
+ }
+
+ .date__text {
+   margin-right: 24px;
+ }
+
+ .landing-date {
+   margin-right: 385px; 
+   /* !current knowledge is not enough to set the intervals correctly*/
+ }
+
+ .landing-share__text,
+ .nav-social__link {
+   margin-right: 12px;
+ }
+ /* --------/details-------------- */
+ /* ---------image--------------- */
+ .landing__image {
+   margin-bottom: 60px;
+ }
+ /* ---------/image--------------- */
+ /* ----------text---------------- */
+ .landing__text-one {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   margin-bottom: 24px;
+   color: #1e212c;
+ }
+ 
+ .landing__text-two { 
+   margin-bottom: 40px;
+ }
+ 
+ .landing__text-three {
+   margin-bottom: 48px;
+ }
+
+ .text-four {
+   display: flex;
+ } 
+
+ .text-four__img {
+   max-width: 28px;
+   height: 20px;
+ }
+ 
+ .landing__text-four {
+   max-width: 752px;
+   display: block;
+   font-weight: 900;
+   font-size: 20px;
+   line-height: 1.5;
+   padding-left: 30px;
+   margin-bottom: 48px;
+   color: #000;
+ }
+ 
+ .landing__text-five,
+ .landing__list {
+   margin-bottom: 24px;
+ }
+
+ .list__item-mark {
+   margin-right: 16px;
+ }
+ 
+ .list__item {
+   margin-bottom: 4px;
+ }
+ 
+ .landing__text-six {
+   margin-bottom: 60px;
+ }
+ /* ----------/text---------------- */
+ /* ---------button-------- */
+.button-div {
+   margin-bottom: 40px;
+   padding-bottom: 30px;
+ }
+ 
+ .button{
+    display:inline-block;
+    background-color: #f32906;
+    padding: 15px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 0 #000;
+    transition: all 0.3s ease 0s;
+ }
+ .button:hover{
+    margin-top: 3px;
+    box-shadow: 0 2px 0 #000;
+ }
+ 
+ .button:active{
+    margin-top: 3px;
+    box-shadow: 0 2px 0 #000;
+    background-color: #0661f3;
+    color: rgb(234, 239, 81);
+ }
+
+/* ========/LANDING============ */
+/* ========HOMEWORK============ */
+.main__title {
+   font-size: 44px;
+   font-weight: 900;
+   color: rgb(29, 19, 19);
+   text-align: center;
+   font-style: italic;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+   background-color: rgba(245, 226, 226, 0.574);
+  }
+  
+  .main__text {
+     font-size: 35px;
+     font-weight: 700;
+     font-style: italic; 
+     text-transform:capitalize;
+     text-align: center;
+     margin-bottom: 40px;
+     color:rgba(48, 26, 5, 0.845);
+  }
+
+.homework__container {
+   background-color:rgb(241, 118, 118);
+   
+}
+/* ------block-one---------- */
+.block-one__background {
+   background-image: url(../image/background/background-one.jpg);
+   
+}
+
+.text {
+   color: #000;
+   font-size: 40px;
+   padding: 25px;
+}
+/* ------/block-one---------- */
+/* ------graadient---------- */
+.gradient__background {
+   background-image: linear-gradient(to bottom right, #570AC0, #D6A520);
+}
+/* ------/graadient---------- */
+/* ------repeat------------- */
+.background-repeat__background {
+   background-image:url("../image/background/jigsaw.svg"), linear-gradient(to bottom, #26DB0C, #0627BA); ;
+}
+/* ------/repeat------------- */
+/* ------repeat-x------------- */
+.background-repeat-x__background {
+   background-image:url("../image/background/jigsaw.svg"), linear-gradient(to right, rgba(219, 206, 12, 1.0), rgba(35, 62, 183, 1.0));
+   background-repeat:repeat-x ; 
+}
+/* ------/repeat-x------------- */
+/* ------repeat-y------------- */
+.background-repeat-y__background {
+   background-image:url("../image/background/background-four.jpg"), linear-gradient(to top, rgba(219, 206, 12, 1.0), rgba(3, 20, 93, 1.0));
+   background-repeat:repeat-y ; 
+}
+.text-white {
+   color: #fff;
+   font-size: 40px;
+}
+/* ------/repeat-y------------- */
+/* ------repeat-no------------- */
+.background-repeat-no__background {
+   background-image:url("../image/background/background-five.jpg");
+   background-repeat:no-repeat ; 
+   background-position: 50% 50%;
+   border: 2px solid rgba(12, 8, 8, 0.8);
+}
+.text-yellow {
+   color: yellowgreen;
+   font-size: 40px;
+}
+/* ------/repeat-no------------- */
+/* ------scroll-no------------- */
+.background-scroll-no__background {
+   background-image:url("../image/background/background-six.jpg");
+   background-repeat:no-repeat ;
+   border: 2px solid rgba(12, 8, 8, 0.8);
+   min-height: 800px;
+   background-position:50% 0;
+   background-attachment: fixed;
+}
+/* ------/scroll-no------------- */
+/* ------background-size-contain-------- */
+.background-size-contain__background {
+   background:url("../image/background/background-six.jpg") no-repeat;
+   background-color:#26db0c;
+   background-size:contain;
+   min-height: 1000px;
+   border: 2px solid rgba(223, 5, 5, 0.8);
+}
+/* ------/background-size-contain------- */
+/* ------background-size-cover--------- */
+.background-size-cover__background {
+   background:url("../image/background/background-six.jpg") 0 0 / cover ;
+   background-color:#26db0c;
+   background-size:cover;
+   min-height: 500px;
+   border: 2px solid rgba(223, 5, 5, 0.8);
+}
+/* ------/background-size-cover--------- */
+/* ------background-multi-------------- */
+.background-multi__background {
+   background:url("../image/background/background-one.jpg")no-repeat bottom right / 200px ,url("../image/background/background-six.jpg") no-repeat 15px 15px / 200px,
+   url(../image/background/jigsaw.svg),linear-gradient(to top, rgba(219, 206, 12, 1.0), rgba(3, 20, 93, 1.0)) ;
+   margin-bottom: 30px;
+}
+/* ------/background-multi-------------- */
+
+/* ========/HOMEWORK=========== */
+/* ========FOOTER============== */
+.footer__container {
+   background-color:aqua;
+}
+/* ========/FOOTER============== */
